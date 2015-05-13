@@ -1,0 +1,5 @@
+C:\Users\iigbo.CMCADD1\Documents\Visual Studio 2013\Projects\SimpleApp\CommonModules\bin\Debug\CommonModules.dll
+C:\Users\iigbo.CMCADD1\Documents\Visual Studio 2013\Projects\SimpleApp\CommonModules\bin\Debug\CommonModules.pdb
+C:\Users\iigbo.CMCADD1\Documents\Visual Studio 2013\Projects\SimpleApp\CommonModules\obj\Debug\CommonModules.csprojResolveAssemblyReference.cache
+C:\Users\iigbo.CMCADD1\Documents\Visual Studio 2013\Projects\SimpleApp\CommonModules\obj\Debug\CommonModules.dll
+C:\Users\iigbo.CMCADD1\Documents\Visual Studio 2013\Projects\SimpleApp\CommonModules\obj\Debug\CommonModules.pdb
