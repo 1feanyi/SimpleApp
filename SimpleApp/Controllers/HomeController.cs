@@ -31,6 +31,18 @@ namespace SimpleApp.Controllers
             return View(GetTimeStamps());
         }
 
+        public ActionResult Modules() //new action method called 'Modules' using LINQ to generate an array of Tuple containing strings
+        {
+            var modules = HttpContext.ApplicationInstance.Modules;
+            Tuple<string, string>[] data = modules.AllKeys
+                                            .Select(x => new Tuple<string, string>(
+                                                x.StartsWith("__Dynamic") ? x.Split('_', ',')[3] : x,
+                                                modules[x].GetType().Name))
+                                            .OrderBy(x => x.Item1)
+                                            .ToArray();
+            return View(data);
+        }
+
         private List<string> GetTimeStamps()
         {
             return new List<string>
